@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+html {
+    position: relative;
+    min-height:100%;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        
+    /*background: linear-gradient(180deg, rgba(17,205,125,1) 0%, rgba(181,240,109,1) 37%, rgba(221,254,103,1) 55%, rgba(245,254,143,1) 82%, rgba(253,254,238,1) 100%); */
+}
+
+body {
+    background: #ededf2;
+    background: url("https://saphir.paris/cdn/shop/files/Cover-image-2_1000x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    margin: 34px 13px;
+    font-family: Oregon, sans-serif;
+    font-size: 13pt;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 1.05;
+
+}
+
+.content {
+    margin: 0px auto;
+    max-width: 500px;
+    margin-bottom: 72px;  /* 34px + img height 55 */
+    background: white;
+    padding: 55px;
+    border-radius: 21px;
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,.1);
+    transition: .5s;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:visited {
+    color: black;
+}
+
+.header-wrap {
+    margin: 0px 0px 34px 0px;
+}
+
+h1 {
+    color: #111;
+    font-family: Oregon, sans-serif;
+    font-size: 34pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin-top: -5%;
+}
+h2 {
+    font-weight: normal;
+}
+
+b {
+    font-family: DMSans, sans-serif;
+    font-weight: bold;
+}
+
+
+#intro-text {
+    margin-top: 32px;
+    font-size: 10pt;
+    line-height: 140%;
+    letter-spacing: .9;
+}
+
+
+/* ----- footer ----- */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+/* here i try to center my signature
+i don't know why but it works like a charm */
+#signature {
+    width: 55px;
+    margin: 21px;
+    display: block;
+    position: relative;
+    left: -50%;
+}
